@@ -3,7 +3,7 @@
 # Best Practices in PowerShell<br>
 
 - [Variable Names](##1.)
-- [Verwendung](#verwendung)
+- [Comments](##2.)
 - [Dokumentation](#dokumentation)
 - [Beiträge](#beiträge)
 - [Lizenz](#lizenz)
@@ -26,7 +26,7 @@
    ```
 <br><br>
 
-## 2. **Add comments to explain complex logic, assumptions, or important details.**
+##2. **Add comments to explain complex logic, assumptions, or important details.**
 
    - Keep comments concise and relevant.
     <br><br>
