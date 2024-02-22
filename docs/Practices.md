@@ -2,6 +2,14 @@
 
 # Best Practices in PowerShell<br>
 
+- [Variable Names](## 1. **Use Meaningful Variable Names**)
+- [Verwendung](#verwendung)
+- [Dokumentation](#dokumentation)
+- [Beiträge](#beiträge)
+- [Lizenz](#lizenz)
+- [Kontakt](#kontakt)
+- [Hinweise](#hinweise)
+
 ## 1. **Use Meaningful Variable Names**
 
    - Use descriptive variable names that convey their purpose.
