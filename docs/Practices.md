@@ -60,7 +60,7 @@
    - Use parameters to make functions more flexible.
     <br><br>
    ```powershell
-   Copy code
+   
    # Bad
    $names = "Alice", "Bob", "Charlie"
    foreach ($name in $names) {
@@ -84,7 +84,7 @@
    - Format output for better readability using Format-Table, Format-List, etc.
     <br><br>
    ```powershell
-   Copy code
+   
    # Bad
    Get-Process
 
@@ -98,7 +98,7 @@
    - Use Write-Verbose for verbose output, especially in scripts intended for automation.
     <br><br>
    ```powershell
-   Copy code
+   
    # Bad
    # Some complex logic without any debug output
 
@@ -115,7 +115,7 @@
    - Aim for reusability and consistency in function design.
     <br><br>
    ```powershell
-   Copy code
+   
    # Define an advanced function
    function Get-UserInfo {
        [CmdletBinding()]
@@ -140,7 +140,7 @@
    - Log errors and exceptions for troubleshooting.
     <br><br>
    ```powershell
-   Copy code
+   
    try {
        # Code block that might throw an error
    }
