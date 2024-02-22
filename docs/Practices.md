@@ -2,7 +2,7 @@
 
 # Best Practices in PowerShell<br>
 
-- [Variable Names](#1.)
+- [Variable Names](#Use)
 - [Comments](##2)
 - [Dokumentation](#dokumentation)
 - [Beiträge](#beiträge)
@@ -10,7 +10,7 @@
 - [Kontakt](#kontakt)
 - [Hinweise](#hinweise)
 
-# 1. **Use Meaningful Variable Names**
+## 1. **Use Meaningful Variable Names**
 
    - Use descriptive variable names that convey their purpose.
    - Avoid single-letter variable names except for loop counters.
