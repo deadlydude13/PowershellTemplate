@@ -29,9 +29,8 @@
    # Good
    # Increment the counter by 1
    $counter++
-
    ```
-
+ <br><br>
 3. **Error Handling**
 
    - Implement proper error handling to gracefully handle exceptions.
@@ -52,7 +51,7 @@
        Write-Host "Error: $($_.Exception.Message)"
    }
    ```
-
+ <br><br>
 4. **Use Functions for Reusability**
 
    - Encapsulate reusable code into functions.
@@ -76,7 +75,7 @@
        Greet $name
    }
    ```
-
+ <br><br>
 5. **Format Output for Readability**
 
    - Format output for better readability using Format-Table, Format-List, etc.
@@ -89,7 +88,7 @@
    # Good
    Get-Process | Format-Table -AutoSize
    ```
-
+ <br><br>
 6. **Use Verbose Output for Debugging**
 
    - Use Write-Verbose for verbose output, especially in scripts intended for automation.
@@ -105,7 +104,7 @@
    Write-Verbose "Process completed successfully." -Verbose
    These are some beginner-level best practices in PowerShell. As you become more comfortable with PowerShell, you can explore more advanced techniques and practices.
    ```
-
+ <br><br>
 7. **Use Advanced Functions (cmdlets)**
 
    - Create advanced functions (cmdlets) with param blocks, input validation, and support for common parameters.
