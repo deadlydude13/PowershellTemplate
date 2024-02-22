@@ -2,7 +2,7 @@
 
 # Best Practices in PowerShell<br>
 
-- [Variable Names](##1. **Use Meaningful Variable Names**)
+- [Variable Names](##1.)
 - [Verwendung](#verwendung)
 - [Dokumentation](#dokumentation)
 - [Beiträge](#beiträge)
