@@ -19,31 +19,31 @@ The directory structure follows best practices for organizing PowerShell project
 
 MyPowerShellProject/<br>
 │<br>
-├───src/<br>
-│ ├───Scripts/<br>
-│ ├───Functions/<br>
-│ └───...<br>
-│<br>
-├───logs/<br>
-│ ├───2024-02-22/<br>
-│ └───...<br>
-│<br>
-├───data/<br>
-│ ├───img/<br>
-│ │ └───...<br>
-│ ├───db/<br>
-│ │ └───...<br>
-│ └───...<br>
-│<br>
-├───tests/<br>
-│ ├───UnitTests/<br>
-│ ├───IntegrationTests/<br>
-│ └───...<br>
-│<br>
-└───docs/<br>
-├───README.md<br>
-├───UserGuide.md<br>
-└───...<br>
+    ├───src/<br>
+    │ ├───Scripts/<br>
+    │ ├───Functions/<br>
+    │ └───...<br>
+    │<br>
+    ├───logs/<br>
+    │ ├───2024-02-22/<br>
+    │ └───...<br>
+    │<br>
+    ├───data/<br>
+    │ ├───img/<br>
+    │ │ └───...<br>
+    │ ├───db/<br>
+    │ │ └───...<br>
+    │ └───...<br>
+    │<br>
+    ├───tests/<br>
+    │ ├───UnitTests/<br>
+    │ ├───IntegrationTests/<br>
+    │ └───...<br>
+    │<br>
+    └───docs/<br>
+    ├───README.md<br>
+    ├───UserGuide.md<br>
+    └───...<br>
 
 ## Usage
 
