@@ -13,34 +13,33 @@ This is a template for organizing and structuring PowerShell projects. It provid
 
 The directory structure follows best practices for organizing PowerShell projects:
 
-MyPowerShellProject/
-│
-├───src/
-│ ├───Scripts/
-│ ├───Functions/
-│ └───...
-│
-├───logs/
-│ ├───2024-02-22/
-│ └───...
-│
-├───data/
-│ ├───img/
-│ │ └───...
-│ ├───db/
-│ │ └───...
-│ └───...
-│
-├───tests/
-│ ├───UnitTests/
-│ ├───IntegrationTests/
-│ └───...
-│
-└───docs/
-├───README.md
-├───UserGuide.md
-└───...
-
+MyPowerShellProject/<br>
+│<br>
+├───src/<br>
+│ ├───Scripts/<br>
+│ ├───Functions/<br>
+│ └───...<br>
+│<br>
+├───logs/<br>
+│ ├───2024-02-22/<br>
+│ └───...<br>
+│<br>
+├───data/<br>
+│ ├───img/<br>
+│ │ └───...<br>
+│ ├───db/<br>
+│ │ └───...<br>
+│ └───...<br>
+│<br>
+├───tests/<br>
+│ ├───UnitTests/<br>
+│ ├───IntegrationTests/<br>
+│ └───...<br>
+│<br>
+└───docs/<br>
+├───README.md<br>
+├───UserGuide.md<br>
+└───...<br>
 
 ## Usage
 
@@ -55,4 +54,4 @@ Contributions to improve this template are welcome! Feel free to submit issues o
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](https://mit-license.org/)
