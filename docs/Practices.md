@@ -3,7 +3,7 @@
 1. **Use Meaningful Variable Names**
 
    - Use descriptive variable names that convey their purpose.
-   - Avoid single-letter variable names except for loop counters.
+   - Avoid single-letter variable names except for loop counters.<br>
 
    ```powershell
    # Bad
