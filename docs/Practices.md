@@ -14,7 +14,6 @@
    $numberOfUsers = 10
    $greetingMessage = "Hello"
    ```
-
    <br><br>
 
 2. **Add comments to explain complex logic, assumptions, or important details.**
@@ -37,7 +36,7 @@
 
    - Implement proper error handling to gracefully handle exceptions.
    - Use try and catch blocks to catch and handle errors.
-
+ <br><br>
    ```Powershell
    # Bad
    $result = Get-Content "nonexistent.txt"
