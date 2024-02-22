@@ -2,8 +2,8 @@
 
 # Best Practices in PowerShell<br>
 
-- [Variable Names](##1.)
-- [Comments](##2.)
+- [Variable Names](##1)
+- [Comments](##2)
 - [Dokumentation](#dokumentation)
 - [Beiträge](#beiträge)
 - [Lizenz](#lizenz)
