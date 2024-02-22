@@ -3,6 +3,7 @@ Resources > [Learn Powershell](https://learn.microsoft.com/en-us/powershell/scri
 Menu > [Template](https://github.com/deadlydude13/PowershellTemplate/blob/main/README.md) [DevDoc](https://github.com/deadlydude13/PowershellTemplate/blob/main/docs/DevDoc.md) [InstallDoc](https://github.com/deadlydude13/PowershellTemplate/blob/main/docs/InstallDoc.md) [MaintananceDoc](https://github.com/deadlydude13/PowershellTemplate/blob/main/docs/MAintainanceDoc.md) [Practices](https://github.com/deadlydude13/PowershellTemplate/blob/main/docs/Practices.md) [TestDoc](https://github.com/deadlydude13/PowershellTemplate/blob/main/docs/DevDoc.md) [UserGuide](https://github.com/deadlydude13/PowershellTemplate/blob/main/docs/UserGuide.md) [Readme](https://github.com/deadlydude13/PowershellTemplate/blob/main/docs/README.md)    
 
 # Best Practices in PowerShell<br>
+# Content
 
 - [Use Meaningful Variable Names](#1-use-meaningful-variable-names)
 - [Comments](#2-add-comments-to-explain-complex-logic-assumptions-or-important-details)
