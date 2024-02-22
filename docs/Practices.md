@@ -4,7 +4,7 @@
 
 - [Variable Names](#use-meaningful-variable-names)
 - [Comments](##2)
-- [Dokumentation](#dokumentation)
+- [Error Handling](#Error-Handling)
 - [Beiträge](#beiträge)
 - [Lizenz](#lizenz)
 - [Kontakt](#kontakt)
