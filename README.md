@@ -1,3 +1,4 @@
+### [Learn Powershell](https://learn.microsoft.com/en-us/powershell/scripting/how-to-use-docs?view=powershell-7.4) 
 # PowerShell Project Template
 
 This is a template for organizing and structuring PowerShell projects. It provides a starting point with best practices for directory structure, documentation, and coding standards.
