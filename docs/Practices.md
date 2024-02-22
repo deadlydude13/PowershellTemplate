@@ -170,7 +170,7 @@
             { Get-UserInfo -UserName "NonExistentUser" } | Should -Throw
         }
     }
-    ```
+   ```
 <br><br>
 
 ## 10. **Modularize Code**
