@@ -102,7 +102,6 @@
    Write-Verbose "Starting the process..." -Verbose
    # Complex logic goes here
    Write-Verbose "Process completed successfully." -Verbose
-   These are some beginner-level best practices in PowerShell. As you become more comfortable with PowerShell, you can explore more advanced techniques and practices.
    ```
  <br><br>
 7. **Use Advanced Functions (cmdlets)**
