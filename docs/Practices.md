@@ -2,13 +2,19 @@
 
 # Best Practices in PowerShell<br>
 
-- [Variable Names](#use-meaningful-variable-names)
-- [Comments](##2)
-- [Error Handling](#Error-Handling)
-- [Beiträge](#beiträge)
-- [Lizenz](#lizenz)
-- [Kontakt](#kontakt)
-- [Hinweise](#hinweise)
+- [Use Meaningful Variable Names](#1-use-meaningful-variable-names)
+- [Comments](#2-add-comments-to-explain-complex-logic-assumptions-or-important-details)
+- [Error Handling](#3-error-handling)
+- [Use Functions for Reusability](#4-use-functions-for-reusability)
+- [Format Output for Readability](#5-format-output-for-readability)
+- [Use Verbose Output for Debugging](#6-use-verbose-output-for-debugging)
+- [Use Advanced Functions (cmdlets)](#7-use-advanced-functions-cmdlets)
+- [Write Robust Error Handling](#8-write-robust-error-handling)
+- [Unit Testing](#9-unit-testing)
+- [Modularize Code](#10-modularize-code)
+- [Optimize Performance](#11-optimize-performance)
+- [Secure Coding Practices](#12-secure-coding-practices)
+- [Continuous Integration/Continuous Deployment (CI/CD)](#13-continuous-integrationcontinuous-deployment-cicd)
 
 ## 1. **Use Meaningful Variable Names**
 
