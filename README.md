@@ -4,7 +4,7 @@ Menu > [Template](https://github.com/deadlydude13/PowershellTemplate/blob/main/R
 
 # PowerShell Project Template
 
-This is a template for organizing and structuring PowerShell projects. It provides a starting point with best practices for directory structure, documentation, and coding standards.
+This is a template for learning, organizing and structuring PowerShell projects. It provides a starting point with best practices for directory structure, documentation, and coding standards.
 
 ## Features
 
