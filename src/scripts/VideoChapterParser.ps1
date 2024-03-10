@@ -6,7 +6,7 @@
     Reads chapter data from a csv file and adds it to a video file using FFmpeg.
 
 .PARAMETER ffmpegPath
-    	Path to the FFmpeg executable. Used to add chapter information to the video.
+    Path to the FFmpeg executable. Used to add chapter information to the video.
 
 .PARAMETER ffprobePath
     Path to the FFprobe executable. Used to retrieve information about the video.
@@ -84,7 +84,6 @@ function Initialize-FFmpegTools {
         Write-Host "Usage: script.ps1 -inputFile <path> -csvFile <path> [-csvDelimiter <delimiter>] -outputFile <path> [-debug] [-help]"
         exit
     }
-
     function Invoke-FileProcessing {
         param (
             [string]$inputFile,
@@ -93,12 +92,10 @@ function Initialize-FFmpegTools {
             [string]$csvDelimiter,
             [bool]$debug
         )
-
         if (-not $inputFile -or -not $csvFile) {
             Write-Error "Missing required arguments."
             Show-Help
         }
-    
         $delimiter = switch -Regex ($csvDelimiter) {
             "comma" { ","; break }
             "semi|semicolon" { ";"; break }
@@ -115,10 +112,8 @@ function Initialize-FFmpegTools {
         # if (-not $delimiter) {
         #    $delimiter = "`t"
         #}
-
         $tempChapterFile = [System.IO.Path]::GetTempFileName()
         if ($debug) { Write-Host "DEBUG - Temp file:`n$tempChapterFile`n" }
-
         try {
             $chapters = Import-Csv -Path $csvFile -Header 'TimeCode', 'Track', 'Color', 'Title' -Delimiter $delimiter
             $chaptersContent = Generate-ChapterContent -chapters $chapters -inputFile $inputFile
@@ -128,7 +123,6 @@ function Initialize-FFmpegTools {
         finally {
             Remove-Item $tempChapterFile -ErrorAction SilentlyContinue
         }
-
     }
     Test-Executable -executablePath $ffmpegPath -executableName "ffmpeg" -errorMessage "ffmpeg not found at path:"
     Test-Executable -executablePath $ffprobePath -executableName "ffprobe" -errorMessage "ffprobe not found at path:"
@@ -146,9 +140,7 @@ function Main {
         [string]$csvDelimiter,
         [bool]$debug
     )
-
     Initialize-FFmpegTools -ffmpegPath $ffmpegPath -ffprobePath $ffprobePath
-
     if ($Help -or $args -contains '-h' -or $args -contains '-help') {
         Show-Help
     }
@@ -156,6 +148,7 @@ function Main {
     $csvObjects = Read-CSV -filePath $CsvFilePath
     $csvObjects | Format-Table
 }
+
 # Script Execution
 Main
 -ffmpegPath $ffmpegPath
