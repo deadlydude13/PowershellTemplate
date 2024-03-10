@@ -35,7 +35,7 @@ Menu > [Template](https://github.com/deadlydude13/PowershellTemplate/blob/main/R
    ```
 <br><br>
 
-##2. **Add comments to explain complex logic, assumptions, or important details.**
+## 2. **Add comments to explain complex logic, assumptions, or important details.**
 
    - Keep comments concise and relevant.
     <br><br>
